@@ -1,0 +1,32 @@
+@media all and (max-width: 600px) {
+    
+    
+    header, nav, main, footer {
+        width: 100%;
+        margin: 2%;
+    }
+   
+    fieldset {
+        font-size: 2.5vw;
+    }
+    nav {
+        display: grid;
+        grid-auto-flow: row;
+        font-size: 4vw;
+    }
+    .grid-container {
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+    .grid-item {
+        padding: 20px;
+        text-align: center;
+    }
+    #grid-table {
+        grid-column: unset;
+    }
+    main>form {
+        grid-template-columns: 100%;
+    }
+
+}

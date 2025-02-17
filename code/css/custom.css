@@ -1,0 +1,180 @@
+
+body{
+    margin: auto;
+    background-image: url("../images/background.avif");
+    font-family: monospace, Helvetica, sans-serif;
+    max-width: 70em
+    
+}
+figure {
+    text-align: center;
+    font-size: xx-small;
+    resize: auto;
+}
+.frontImage{
+    max-width: 100%;
+}
+
+.image {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --h2-bg-color: #0090939b;
+    --h1-color:#009193;
+    --h2-color: #334242;
+ }
+
+ h1{
+    display: inline;
+    color: var(--h1-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2{
+    display: center;
+    color: var(--h2-color);
+    background-color: var(--h2-bg-color);
+    text-align: center;
+}
+h3{
+    text-align: center
+}
+
+main{
+    display: inline-block;
+}
+
+a:hover { 
+    background-color:  #00909355;
+}
+p{
+    text-indent: 3%;
+    text-align: justify;
+}
+
+figure img, figure figcaption{
+    text-align: center;
+}
+
+nav a:link{ 
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: lightgrey;
+}
+
+nav a{
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #009193;
+}
+nav { 
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption{
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+th, td{
+    border:thin solid lightgrey;
+    text-align: center;
+    padding-block: 1%;
+}
+th{
+    text-align: center;
+}
+
+form p:first-child {
+    text-indent: 0; 
+}
+form{
+    justify-content: center;
+    align-items: center;
+}
+
+.activePage {
+    font-weight: bold;
+    background-color: rgba(185, 180, 240, 0.639); 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    color: whitesmoke;
+    background-color: #009193;
+  }
+tr:nth-child(even) {
+    background-color: whitesmoke;  
+}
+tr:hover {
+    background-color: rgb(198, 190, 255);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+.grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+#grid-table{
+	grid-column:1/3
+}
+.grid-index{
+    display: grid;
+    grid-template-columns: auto 
+}
+nav {
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+
+main>form{
+    grid-template-columns: 100%;
+}
+input[type="text"] {
+    border: 2px solid #009193;
+    padding: 0.5%;
+    font-size: 1.2vw;
+    margin-bottom: 1%;
+
+}
+fieldset{
+    border: 1px solid #009193;
+    margin-bottom: 1%;
+    font-size: 1.2vw;
+}
+input[type="submit"]{
+    background-color: lightgrey;
+    padding: 1%;
+    font-size: 1.3vw;
+}
+
+input[type="submit"]:hover{
+    background-color: #009193;
+}
+label[for^="txt"]{
+    display:block; 
+    margin-bottom: 1%;
+ }
+
+ 

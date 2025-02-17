@@ -1,0 +1,9 @@
+@media all and (min-width: 600px) {
+    
+    header, nav, main, footer {
+        padding: 1.5%;
+        border: 0.2vw solid #ccc;
+        margin: 1%;
+    }
+
+}
